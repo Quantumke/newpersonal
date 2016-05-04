@@ -68,34 +68,41 @@
  <ul class="grid-list cf_">
 <script>
 
-     function viewmore()
+     function devshop()
 	{
 
-		window.location.href="more.php?id=<?php echo $row["id"] ?>";
+		window.location.href="http://moringadevshop.com";
+	}
+ function githubdevshop()
+	{
+
+		window.location.href="http://moringadevshop.com";
 	}
 
 
      </script>
- <li class="item l_" onclick="viewmore()">
- <h2>Title</h2>
- <a href="" onclick="viewmore()" class="screen">
- <span data-text="Title">
+
+<!-------------------------------------------------------------------------->
+ <li class="item l_" onclick="devshop()">
+ <h2 onclick="devshop()">Moringa Devshop</h2>
+ <a href="" onclick="devshop()" class="screen">
+ <span data-text="Moringa Devshop">
  <i></i> <i></i> <i></i>
  </span>
- <div class="thumb" style="background-image:url(img/AFC1.png)">
+ <div class="thumb" style="background-image:url(img/devshop.png)">
  <div class="tags">
  <div>
  <ul>
-     <li>Php</li>
+     <li>HTML</li>
      <br>
- <i class="fa fa-github"></i>
+ <i onclick="githubdevshop()" class="fa fa-github fa-3x"></i>
  </ul>
  </div></div>
 
- <div style="background-image:url(img/AFC1.png)" class="imgs"></div></div>
+ <div onclick="devshop()" style="background-image:url(img/devshop.png)" class="imgs"></div></div>
 
  <em class="fwa hidden">Best Practices</em></a></li>
-
+<!------------------------------------------------------------------------------->
 
 
 
